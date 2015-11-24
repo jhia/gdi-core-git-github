@@ -1,0 +1,29 @@
+body {
+    cursor: none;
+    font-size: 24px;
+}
+
+.gflex {
+    display: flex;
+}
+
+.gflex p, .gflex ul, .gflex article {
+    display: inline-flex;
+    position: relative;
+    flex: auto;
+    align-items: stretch;
+    
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+img {
+    height: 350px;
+    min-width: 1vh;
+}
